@@ -22,9 +22,9 @@ relaycomtradelib.cpython-36m-x86_64-linux-gnu.so
 
     import relaycomtradelib
 
-    cfg_file = 'path_to_your_cfg_file_osscillogram'   # Obligitary parameter
-    dat_file = 'path_to_your_dat_file_osscillogram'   # Obligitary parameter
-    out_csv  = 'path_to_your_output_data_csv'         # Obligitary parameter. Set empty string '' if you planing to use only data, without output data to file
+    cfg_file = 'path_to_your_cfg_file_osscillogram'   # Obligatary parameter
+    dat_file = 'path_to_your_dat_file_osscillogram'   # Obligatary parameter
+    out_csv  = 'path_to_your_output_data_csv'         # Obligatary parameter. Set empty string '' if you planing to use only data, without output data to file
 
     data = relaycomtradelib.comtrade(cfg_file, dat_file, out_csv)
 
